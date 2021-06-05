@@ -1,4 +1,5 @@
- const hotelSlider = new Swiper('.hotel-slider', {
+ $(document).ready(function() {
+   const hotelSlider = new Swiper('.hotel-slider', {
   // Optional parameters
   loop: true,
 
@@ -16,3 +17,11 @@
     onlyInViewport: true,
   },
 });
+
+var menuButton = $('.menu-button');
+menuButton.on('click', function () {
+  $('.navbar-bottom').toggleClass('navbar-bottom--visible');
+});
+
+   
+ });
