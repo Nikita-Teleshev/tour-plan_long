@@ -1113,10 +1113,16 @@ small {
 }
 
 .footer__categories {
+  margin-left: 2px;
   grid-row: 1 / 4;
 }
 
+.footer__additional {
+  margin-left: 5px;
+}
+
 .footer__legal {
+  margin-right: 5px;
   justify-self: end;
 }
 
@@ -1137,10 +1143,12 @@ small {
 .footer__contact-details {
   grid-column: span 2;
   align-self: stretch;
+  margin-left: -4px;
 }
 
 .footer__contact-form {
   grid-column: span 2;
+  margin-left: 5px;
 }
 
 .footer__ul {
@@ -1160,7 +1168,7 @@ small {
 }
 
 .footer__title--inline {
-  margin: 0 43px 0 0;
+  margin: 0 44px 0 4px;
 }
 
 .footer__title--mb-3 {
@@ -1169,8 +1177,8 @@ small {
 }
 
 .footer__title--mb-1 {
-  margin-top: -4px;
-  margin-bottom: 32px;
+  margin-top: -7px;
+  margin-bottom: 35px;
 }
 
 .footer__item {
@@ -1184,15 +1192,19 @@ small {
 }
 
 .footer__item--mb-2 {
-  margin-bottom: 21px;
+  margin-bottom: 15px;
+  margin-left: 21px;
 }
 
 .footer__icon {
-  margin-left: 3px;
+  margin-left: -6px;
+  margin-top: 3px;
 }
 
 .footer__icon-wrapper {
   min-width: 32px;
+  margin-left: -8px;
+  margin-bottom: 5px;
 }
 
 .footer__text {
@@ -1201,7 +1213,7 @@ small {
   font-size: 14px;
   line-height: 160%;
   color: #BDBDBD;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 
 .footer__link {
@@ -1435,7 +1447,7 @@ small {
     padding: 92px 34px 93px 34px;
   }
   .reviews {
-    padding: 40px 0 60px 0;
+    padding: 40px 0 44px 0;
   }
   .reviews__title {
     font-size: 30px;
@@ -1451,7 +1463,7 @@ small {
   }
   .reviews-slider__button {
     position: absolute;
-    top: 50%;
+    top: 43%;
     transform: translateY(-50%);
     width: 30px;
     height: 30px;
@@ -1459,7 +1471,7 @@ small {
     margin-left: 0;
   }
   .activities {
-    padding: 60px 0 50px 0;
+    margin-bottom: 50px;
   }
   .activities-wrapper {
     flex-wrap: wrap;
@@ -1473,6 +1485,9 @@ small {
   }
   .footer {
     padding-top: 73px;
+  }
+  .footer__text {
+    margin-left: 4px;
   }
   .footer-wrapper {
     grid-template-columns: repeat(6, 1fr);
@@ -1501,7 +1516,7 @@ small {
   .footer__legal {
     justify-self: center;
     grid-column: span 2;
-    margin-left: 5px;
+    margin-left: 10px;
   }
   .footer__additional {
     margin-left: -40px;
@@ -1519,6 +1534,7 @@ small {
     grid-row: 3;
   }
   .footer__contact-form {
+    margin-left: -3px;
     max-width: 539px;
     font-style: normal;
     font-weight: normal;
@@ -1536,14 +1552,16 @@ small {
   }
   .footer__title--mb-3 {
     margin-bottom: 23px;
-    margin-top: 2px;
+    margin-top: -2px;
+    margin-left: 4px;
   }
   .footer__title--mb-1 {
     margin-top: -3px;
     margin-bottom: 34px;
   }
   .footer__item--mb-2 {
-    margin-bottom: 20px;
+    margin-bottom: 16px;
+    margin-left: 10px;
   }
   .footer-wrapp {
     max-width: 698px;
@@ -1832,7 +1850,8 @@ small {
     transform: translate(50%, 0);
   }
   .activities {
-    padding: 40px 0 40px 0;
+    padding: 40px 0 0px 0;
+    margin-bottom: 36px;
   }
   .activities__title {
     font-weight: bold;
@@ -1842,6 +1861,7 @@ small {
   }
   .card {
     width: 100%;
+    margin-bottom: 23px;
   }
   .card-change-3 {
     order: 1;
@@ -1850,7 +1870,7 @@ small {
     order: 2;
   }
   .footer {
-    padding-top: 76px;
+    padding-top: 66px;
     padding-bottom: 30px;
   }
   .footer-wrapper {
@@ -1874,7 +1894,7 @@ small {
   }
   .footer__title {
     flex-basis: 100%;
-    margin-bottom: 17px;
+    margin-bottom: 15px;
   }
   .footer__title--inline {
     margin: -12px 0px 0px 0px;
@@ -1884,7 +1904,7 @@ small {
     margin-top: -11px;
   }
   .footer__title--mb-1 {
-    margin-bottom: 17px;
+    margin-bottom: 9px;
   }
   .footer__text {
     font-style: normal;
@@ -1917,7 +1937,7 @@ small {
   }
   .footer__contact-form {
     max-height: 386px;
-    margin-top: 29px;
+    margin-top: 31px;
     grid-row: 7;
     grid-column: 1;
   }
@@ -1977,6 +1997,9 @@ small {
   }
   .footer__button {
     order: 2;
+  }
+  .swiper-container {
+    height: 463px;
   }
 }
 

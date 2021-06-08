@@ -66,7 +66,7 @@
   .newsletter
     padding: 92px 34px 93px 34px
   .reviews
-    padding: 40px 0 60px 0
+    padding: 40px 0 44px 0
     &__title
       font-size: 30px
       line-height: 38px
@@ -79,14 +79,14 @@
           display: none
       &__button
         position: absolute
-        top: 50%
+        top: 43%
         transform: translateY(-50%)
         width: 30px
         height: 30px
         margin-right: 0
         margin-left: 0
   .activities
-    padding: 60px 0 50px 0
+    margin-bottom: 50px
     &-wrapper
       flex-wrap: wrap
     &__card
@@ -96,6 +96,8 @@
     height: 255px
   .footer
     padding-top: 73px
+    &__text
+      margin-left: 4px
     &-wrapper
       grid-template-columns: repeat(6, 1fr)
       grid-row-gap: 40px
@@ -120,7 +122,7 @@
     &__legal
       justify-self: center
       grid-column: span 2
-      margin-left: 5px
+      margin-left: 10px
     &__additional
       margin-left: -40px
       grid-column: span 2
@@ -134,6 +136,7 @@
         grid-column: span 5
         grid-row: 3
       &-form
+        margin-left: -3px
         max-width: 539px
         font-style: normal
         font-weight: normal
@@ -148,12 +151,14 @@
         margin: 0 43px 0 -54px
       &--mb-3
         margin-bottom: 23px
-        margin-top: 2px
+        margin-top: -2px
+        margin-left: 4px
       &--mb-1
         margin-top: -3px
         margin-bottom: 34px
     &__item--mb-2
-      margin-bottom: 20px
+      margin-bottom: 16px
+      margin-left: 10px
     &-wrapp
       max-width: 698px
       padding-top: 54px
@@ -389,7 +394,8 @@
           margin-right: -120px
           transform: translate(50%, 0)
   .activities
-    padding: 40px 0 40px 0
+    padding: 40px 0 0px 0
+    margin-bottom: 36px
     &__title
       font-weight: bold
       font-size: 18px
@@ -397,12 +403,13 @@
       margin-bottom: 36px
   .card
     width: 100%
+    margin-bottom: 23px
     &-change-3
       order: 1
     &-change-2
       order: 2
   .footer
-    padding-top: 76px
+    padding-top: 66px
     padding-bottom: 30px
     &-wrapper
       min-width: 281px
@@ -422,14 +429,14 @@
         margin-top: 21px
     &__title
       flex-basis: 100%
-      margin-bottom: 17px
+      margin-bottom: 15px
       &--inline
         margin: -12px 0px 0px 0px
       &--mb-3
         margin-bottom: 23px
         margin-top: -11px
       &--mb-1
-        margin-bottom: 17px
+        margin-bottom: 9px
     &__text
       font-style: normal
       font-weight: normal
@@ -457,7 +464,7 @@
         grid-column: 1
       &-form
         max-height: 386px
-        margin-top: 29px
+        margin-top: 31px
         grid-row: 7
         grid-column: 1
     &__icon
@@ -505,6 +512,8 @@
       margin-bottom: 15px
     &__button
       order: 2
+  .swiper-container
+    height: 463px
 @media (max-width: 320px)
   .container
     max-width: 280px
