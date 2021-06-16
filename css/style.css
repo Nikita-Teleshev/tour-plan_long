@@ -1293,10 +1293,10 @@ small {
 
 .modal__dialog {
   position: fixed;
-  top: 50%;
+  top: 57%;
   left: 50%;
   max-width: 478px;
-  padding: 24px 88px;
+  padding: 33px 88px;
   transform: translate(-50%, -50%);
   background-color: #0A223D;
   color: #fff;
@@ -1323,7 +1323,8 @@ small {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  margin-bottom: 15px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .modal__close {
@@ -1355,6 +1356,7 @@ small {
   font-size: 12px;
   line-height: 15px;
   color: #E0E0E0;
+  margin-top: 13px;
 }
 
 .return {
@@ -1616,7 +1618,7 @@ small {
     justify-items: start;
   }
   .modal__dialog {
-    padding: 35px 60px;
+    padding: 3% 10%;
   }
 }
 
@@ -1803,21 +1805,20 @@ small {
   .footer__input-group {
     flex-basis: 100%;
   }
-  .modal__dialog {
-    max-width: 95%;
-    padding: 30px;
-  }
-  .modal__title {
+  .footer__title {
     font-size: 15px;
     line-height: 17px;
     margin-top: 0;
   }
-  .modal__close {
+  .footer__close {
     right: 11px;
     top: 10px;
   }
-  .modal__image {
+  .footer__image {
     max-width: 75%;
+  }
+  .modal__dialog {
+    width: 60%;
   }
 }
 
@@ -2039,6 +2040,9 @@ small {
   }
   .swiper-container {
     height: 463px;
+  }
+  .modal__dialog {
+    width: 90%;
   }
 }
 
