@@ -50,7 +50,6 @@ img {
 
 .form {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   font-style: normal;
@@ -1618,7 +1617,7 @@ small {
     justify-items: start;
   }
   .modal__dialog {
-    padding: 25px 50px;
+    width: 478px;
   }
 }
 
@@ -1816,9 +1815,6 @@ small {
   }
   .footer__image {
     max-width: 75%;
-  }
-  .modal__dialog {
-    width: 60%;
   }
 }
 
@@ -2043,6 +2039,7 @@ small {
   }
   .modal__dialog {
     width: 90%;
+    padding: 5% 17%;
   }
 }
 
