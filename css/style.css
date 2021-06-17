@@ -1293,7 +1293,7 @@ small {
 
 .modal__dialog {
   position: fixed;
-  top: 57%;
+  top: 50%;
   left: 50%;
   max-width: 478px;
   padding: 33px 88px;
@@ -1308,7 +1308,7 @@ small {
 }
 
 .modal__dialog--visible {
-  max-height: 70%;
+  max-height: 90%;
   visibility: visible;
   opacity: 1;
   display: block;
@@ -1618,7 +1618,7 @@ small {
     justify-items: start;
   }
   .modal__dialog {
-    padding: 3% 10%;
+    padding: 25px 50px;
   }
 }
 
