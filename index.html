@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
@@ -18,7 +19,7 @@
     <header class="navbar navbar--mobile navbar--mobile--fixed">
       <div class="container">
         <div class="navbar-top">
-          <a href="#" class="logo">
+          <a href="#" class="logo" data-aos="zoom-in" data-aos-delay="300">
             <img
               src="img/logo/horizontal-logo.svg"
               alt="Logo: Best Tour Plan"
@@ -186,7 +187,9 @@
           <!-- /.swiper-container-->
     
           <div class="hotel-location">
-            <div class="booking">
+            <div class="booking" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000">
               <div class="booking__info">
                 <div class="booking__price">
                   <span class="booking__start">price starts as</span>
@@ -408,7 +411,7 @@
       <div class="container">
         <h2 class="activities__title">Other Activities</h2>
         <div class="activities-wrapper">
-          <div class="card activities__card">
+          <div class="card activities__card" data-aos="fade-up" data-aos-delay="100">
             <img src="img/activity/activity-1.jpg" alt="The curious corner of chamarel" class="card__image" />
             <h3 class="card__title">
               The curious corner <br />
@@ -419,7 +422,7 @@
             </button>
           </div>
           <!-- /.card -->
-          <div class="card activities__card">
+          <div class="card activities__card" data-aos="fade-up" data-aos-delay="200">
             <img src="img/activity/activity-2.jpg" alt="Gymkhana club golf course" class="card__image" />
             <h3 class="card__title">Gymkhana club golf <br />course</h3>
             <button data-toggle="modal" data-href="#booking-modal"  class="card__button">
@@ -427,7 +430,7 @@
             </button>
           </div>
           <!-- /.card -->
-          <div class="card activities__card activities-change-2">
+          <div class="card activities__card activities-change-2" data-aos="fade-up" data-aos-delay="400">
             <img src="img/activity/activity-3.jpg" alt="Tamarind falls hiking trip - full day" class="card__image" />
             <h3 class="card__title">
               Tamarind falls hiking <br />
@@ -438,7 +441,7 @@
             </button>
           </div>
           <!-- /.card -->
-          <div class="card activities__card activities-change-3">
+          <div class="card activities__card activities-change-3" data-aos="fade-up" data-aos-delay="600">
             <img src="img/activity/activity-4.jpg" alt="The blue marine discovery quest" class="card__image" />
             <h3 class="card__title">
               The blue marine discovery <br />
@@ -457,7 +460,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-wrapper">
-          <a href="#" class="footer__logo"><img
+          <a href="#" class="footer__logo" data-aos="zoom-in"><img
               src="img/logo/vertical-logo.svg" alt="Logo: Best Tour Plan" class="footer__logo" /></a>
           <div class="footer__list footer__categories">
             <h3 class="footer__title">ALL CATEGORIES</h3>
@@ -635,6 +638,7 @@
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.mask.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
