@@ -67,13 +67,13 @@ function closeModal(event) {
         },
         phone: {
           required: true,
-          minlength: 10
+          minlength: 18
         }
       },
       messages: {
         name: {
           required: 'Please specify your name',
-          minlength: 'Name must be at least 2 letters',
+         
         },
         email: {
           required: 'We need your email address to contact you',
@@ -81,6 +81,7 @@ function closeModal(event) {
         },
         phone: {
           required: 'Your phone number is required',
+          minlength: 'Please enter at least 10 characters',
         },
       },
     });
