@@ -1897,15 +1897,15 @@ small {
     line-height: 23px;
     margin-bottom: 36px;
   }
+  .activities-change-3 {
+    order: 2;
+  }
+  .activities-change-4 {
+    order: 3;
+  }
   .card {
     width: 100%;
     margin-bottom: 23px;
-  }
-  .card-change-3 {
-    order: 1;
-  }
-  .card-change-2 {
-    order: 2;
   }
   .footer {
     padding-top: 66px;
