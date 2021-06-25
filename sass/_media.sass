@@ -17,6 +17,53 @@
         flex-basis: 100%
     &__links
       grid-column: 1 / 2
+@media (min-width: 992px)
+  .navbar
+    &-menu
+      &__link
+        &:hover
+          color: #778899
+  .button
+    &--hover
+      &:hover
+        color: white
+        background: #DF0101
+  .user
+    &__name
+      &:hover
+        font-size: 15px
+  .logo
+    &:hover
+      border: 1px solid #FFFFFF
+  .breadcrumb
+    &-list
+      &__link
+        &:hover
+          font-size: 11px
+  .hotel
+    &-slider
+      &__button
+        &:hover
+          border: 1px solid #708090
+  .reviews
+    &-slider
+      &__button
+        &:hover
+          background-color: #A9A9A9
+  .footer
+    &__logo
+      &:hover
+        width: 155px
+    &__social
+      &-links
+        &:hover
+          border: 1px solid $dark
+    &__link
+      &:hover
+        font-size: 15px
+    &__ref
+      &:hover
+        color: #778899
 @media (max-width: 992px)
   .container, .newsletter-wrapper
     max-width: 700px
@@ -207,6 +254,8 @@
       &--visible
         display: block
         overflow-y: auto
+        &:hover
+          color: $light
     &-menu
       overflow: auto
       flex-direction: column

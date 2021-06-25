@@ -48,11 +48,6 @@ img {
   border: none;
 }
 
-.button:hover {
-  color: white;
-  background: #DF0101;
-}
-
 .form {
   display: flex;
   justify-content: space-between;
@@ -448,10 +443,6 @@ template {
   line-height: 18px;
 }
 
-.navbar-menu__link:hover {
-  color: #A9A9A9;
-}
-
 .navbar-menu__item--mobile--visible {
   display: none;
 }
@@ -459,10 +450,6 @@ template {
 .logo {
   width: 177px;
   height: 20px;
-}
-
-.logo:hover {
-  border: 1px solid #FFFFFF;
 }
 
 .search {
@@ -496,11 +483,6 @@ template {
   right: 0;
 }
 
-.search__button:hover {
-  color: white;
-  background: #DF0101;
-}
-
 .user {
   display: flex;
   align-items: center;
@@ -520,10 +502,6 @@ template {
   font-size: 14px;
   line-height: 18px;
   color: #333;
-}
-
-.user__name:hover {
-  font-size: 15px;
 }
 
 .breadcrumb-list {
@@ -547,10 +525,6 @@ template {
 .breadcrumb-list__link {
   text-decoration: none;
   color: inherit;
-}
-
-.breadcrumb-list__link:hover {
-  font-size: 11px;
 }
 
 .hotel {
@@ -647,10 +621,6 @@ template {
   background-position: center;
   background-size: 10px;
   background-color: transparent;
-}
-
-.hotel-slider__button:hover {
-  border: 1px solid #708090;
 }
 
 .hotel-slider__button--next {
@@ -821,11 +791,6 @@ small {
   cursor: pointer;
 }
 
-.booking__button:hover {
-  color: white;
-  background: #DF0101;
-}
-
 .map {
   width: 347px;
   height: 213px;
@@ -921,11 +886,6 @@ small {
   cursor: pointer;
 }
 
-.subscribe__button:hover {
-  color: white;
-  background: #DF0101;
-}
-
 .reviews {
   padding: 42px 0 70px 0;
   margin-bottom: 21px;
@@ -992,10 +952,6 @@ small {
   background-color: transparent;
   cursor: pointer;
   z-index: 99;
-}
-
-.reviews-slider__button:hover {
-  background-color: #A9A9A9;
 }
 
 .reviews-slider__button--prev {
@@ -1139,11 +1095,6 @@ small {
   cursor: pointer;
 }
 
-.card__button:hover {
-  color: white;
-  background: #DF0101;
-}
-
 .footer {
   background-color: #0A223D;
   color: #fff;
@@ -1165,10 +1116,6 @@ small {
   align-self: center;
 }
 
-.footer__logo:hover {
-  width: 155px;
-}
-
 .footer__categories {
   margin-left: 2px;
   grid-row: 1 / 4;
@@ -1188,10 +1135,6 @@ small {
   align-items: center;
   min-width: 83px;
   justify-content: space-between;
-}
-
-.footer__social-links:hover {
-  border: 1px solid #0A223D;
 }
 
 .footer__social-network {
@@ -1282,10 +1225,6 @@ small {
   color: inherit;
 }
 
-.footer__link:hover {
-  font-size: 15px;
-}
-
 .footer__input {
   width: 100%;
 }
@@ -1333,10 +1272,6 @@ small {
   font-size: 12px;
   line-height: 15px;
   margin-right: 8px;
-}
-
-.footer__ref:hover {
-  font-size: 11px;
 }
 
 .footer__icons-pay {
@@ -1482,11 +1417,6 @@ small {
   cursor: pointer;
 }
 
-.return__button:hover {
-  color: white;
-  background: #DF0101;
-}
-
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
@@ -1508,6 +1438,43 @@ small {
   }
   .footer__links {
     grid-column: 1 / 2;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-menu__link:hover {
+    color: #778899;
+  }
+  .button--hover:hover {
+    color: white;
+    background: #DF0101;
+  }
+  .user__name:hover {
+    font-size: 15px;
+  }
+  .logo:hover {
+    border: 1px solid #FFFFFF;
+  }
+  .breadcrumb-list__link:hover {
+    font-size: 11px;
+  }
+  .hotel-slider__button:hover {
+    border: 1px solid #708090;
+  }
+  .reviews-slider__button:hover {
+    background-color: #A9A9A9;
+  }
+  .footer__logo:hover {
+    width: 155px;
+  }
+  .footer__social-links:hover {
+    border: 1px solid #0A223D;
+  }
+  .footer__link:hover {
+    font-size: 15px;
+  }
+  .footer__ref:hover {
+    color: #778899;
   }
 }
 
@@ -1749,6 +1716,9 @@ small {
   .navbar-bottom--visible {
     display: block;
     overflow-y: auto;
+  }
+  .navbar-bottom--visible:hover {
+    color: #fff;
   }
   .navbar-menu {
     overflow: auto;
