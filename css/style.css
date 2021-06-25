@@ -1345,10 +1345,6 @@ small {
   cursor: pointer;
 }
 
-.modal__close:hover {
-  border: 1px solid #0A223D;
-}
-
 .modal__input {
   width: 100%;
   margin-top: 15px;
@@ -1362,11 +1358,6 @@ small {
 
 .modal__button {
   margin-top: 15px;
-}
-
-.modal__button:hover {
-  color: white;
-  background: #DF0101;
 }
 
 .modal__info {
@@ -1475,6 +1466,9 @@ small {
   }
   .footer__ref:hover {
     color: #778899;
+  }
+  .modal__close:hover {
+    border: 1px solid #0A223D;
   }
 }
 
