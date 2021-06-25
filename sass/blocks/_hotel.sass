@@ -68,6 +68,8 @@
       background-position: center
       background-size: 10px
       background-color: transparent
+      &:hover
+        border: 1px solid #708090
       &--next
         right: 18px
         background-image: url(../img/buttons/arrow-next.svg)
@@ -103,7 +105,6 @@
     font-weight: 700
 small
   font-size: 10px
-
 .swiper
   &-slide
     &__image
@@ -173,6 +174,8 @@ small
     font-weight: 600
     font-size: 18px
     line-height: 25px
+    &:hover
+      font-size: 19px
   &__num
     margin-left: 8px
   &__button
@@ -187,6 +190,9 @@ small
     color: $light
     border-radius: 4px
     cursor: pointer
+    &:hover
+      color: white
+      background: #DF0101
 .map
   width: 347px
   height: 213px

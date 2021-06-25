@@ -48,6 +48,11 @@ img {
   border: none;
 }
 
+.button:hover {
+  color: white;
+  background: #DF0101;
+}
+
 .form {
   display: flex;
   justify-content: space-between;
@@ -443,6 +448,10 @@ template {
   line-height: 18px;
 }
 
+.navbar-menu__link:hover {
+  color: #A9A9A9;
+}
+
 .navbar-menu__item--mobile--visible {
   display: none;
 }
@@ -450,6 +459,10 @@ template {
 .logo {
   width: 177px;
   height: 20px;
+}
+
+.logo:hover {
+  border: 1px solid #FFFFFF;
 }
 
 .search {
@@ -483,6 +496,11 @@ template {
   right: 0;
 }
 
+.search__button:hover {
+  color: white;
+  background: #DF0101;
+}
+
 .user {
   display: flex;
   align-items: center;
@@ -502,6 +520,10 @@ template {
   font-size: 14px;
   line-height: 18px;
   color: #333;
+}
+
+.user__name:hover {
+  font-size: 15px;
 }
 
 .breadcrumb-list {
@@ -525,6 +547,10 @@ template {
 .breadcrumb-list__link {
   text-decoration: none;
   color: inherit;
+}
+
+.breadcrumb-list__link:hover {
+  font-size: 11px;
 }
 
 .hotel {
@@ -621,6 +647,10 @@ template {
   background-position: center;
   background-size: 10px;
   background-color: transparent;
+}
+
+.hotel-slider__button:hover {
+  border: 1px solid #708090;
 }
 
 .hotel-slider__button--next {
@@ -769,6 +799,10 @@ small {
   line-height: 25px;
 }
 
+.booking__number:hover {
+  font-size: 19px;
+}
+
 .booking__num {
   margin-left: 8px;
 }
@@ -785,6 +819,11 @@ small {
   color: #fff;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.booking__button:hover {
+  color: white;
+  background: #DF0101;
 }
 
 .map {
@@ -882,6 +921,11 @@ small {
   cursor: pointer;
 }
 
+.subscribe__button:hover {
+  color: white;
+  background: #DF0101;
+}
+
 .reviews {
   padding: 42px 0 70px 0;
   margin-bottom: 21px;
@@ -948,6 +992,10 @@ small {
   background-color: transparent;
   cursor: pointer;
   z-index: 99;
+}
+
+.reviews-slider__button:hover {
+  background-color: #A9A9A9;
 }
 
 .reviews-slider__button--prev {
@@ -1072,12 +1120,13 @@ small {
   margin-bottom: 18px;
   color: #fff;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 16px;
   line-height: 20px;
 }
 
 .card__button {
+  font-family: 'Nunito', sans-serif;
   padding: 7px 22px;
   font-style: normal;
   font-weight: 600;
@@ -1088,6 +1137,11 @@ small {
   color: #fff;
   background-color: #EC1F46;
   cursor: pointer;
+}
+
+.card__button:hover {
+  color: white;
+  background: #DF0101;
 }
 
 .footer {
@@ -1111,6 +1165,10 @@ small {
   align-self: center;
 }
 
+.footer__logo:hover {
+  width: 155px;
+}
+
 .footer__categories {
   margin-left: 2px;
   grid-row: 1 / 4;
@@ -1130,6 +1188,10 @@ small {
   align-items: center;
   min-width: 83px;
   justify-content: space-between;
+}
+
+.footer__social-links:hover {
+  border: 1px solid #0A223D;
 }
 
 .footer__social-network {
@@ -1220,6 +1282,10 @@ small {
   color: inherit;
 }
 
+.footer__link:hover {
+  font-size: 15px;
+}
+
 .footer__input {
   width: 100%;
 }
@@ -1267,6 +1333,10 @@ small {
   font-size: 12px;
   line-height: 15px;
   margin-right: 8px;
+}
+
+.footer__ref:hover {
+  font-size: 11px;
 }
 
 .footer__icons-pay {
@@ -1340,6 +1410,10 @@ small {
   cursor: pointer;
 }
 
+.modal__close:hover {
+  border: 1px solid #0A223D;
+}
+
 .modal__input {
   width: 100%;
   margin-top: 15px;
@@ -1353,6 +1427,11 @@ small {
 
 .modal__button {
   margin-top: 15px;
+}
+
+.modal__button:hover {
+  color: white;
+  background: #DF0101;
 }
 
 .modal__info {
@@ -1401,6 +1480,11 @@ small {
   border-radius: 4px;
   border: none;
   cursor: pointer;
+}
+
+.return__button:hover {
+  color: white;
+  background: #DF0101;
 }
 
 @media (max-width: 1200px) {
@@ -1808,6 +1892,12 @@ small {
     width: 48%;
     height: 255px;
   }
+  .footer__title {
+    font-size: 12px;
+  }
+  .footer__additional {
+    margin-left: -20px;
+  }
   .footer__input-group {
     flex-basis: 100%;
   }
@@ -1931,6 +2021,7 @@ small {
     margin-top: 21px;
   }
   .footer__title {
+    font-size: 18px;
     flex-basis: 100%;
     margin-bottom: 15px;
   }
